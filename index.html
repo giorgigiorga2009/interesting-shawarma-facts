@@ -122,6 +122,33 @@
     .fact:nth-child(4n)::after {
       background-color: #007bff;
     }
+    /* Add this media query at the end of your CSS */
+
+/* Add this media query at the end of your CSS */
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 20px;
+    flex-direction: column; /* Change the flex direction to column */
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .fact {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .fact h2 {
+    font-size: 1.3em;
+  }
+
+  .fact p {
+    font-size: 1em;
+  }
+}
   </style>
 </head>
 <body>
@@ -163,3 +190,9 @@
   </div>
 </body>
 </html>
+
+
+
+
+
+
